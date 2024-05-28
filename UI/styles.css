@@ -1,0 +1,206 @@
+
+/* General web-structure rules */
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+    
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    font-family: Dmsans, sans-serif;
+    color: #3b4555;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdf8f4;
+}
+
+.logo-name img{
+    width: 100px;
+}
+
+/* Draft and experimental rules */
+
+
+
+.home-intro {
+    border-bottom: 1px solid red;
+}
+
+
+
+
+/* Header rules */
+
+header {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #fdf8f4;
+    box-shadow: 0 1px 15px -10px #ff6501;
+}
+
+
+.header-links {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.center > nav {
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+}
+
+.nav-menu > a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.right > a {
+    text-decoration: none;
+}
+
+/* Home Intro Section */
+
+.home-intro {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+
+.front-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.front-block > p {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 500px;
+    margin-bottom: 34px;
+    display: flex;
+    font-size: 1rem;
+}
+
+.front-block > h1 {
+    max-width: 1100px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 122%;
+
+}
+
+.fun {
+    color: #ff6501;
+    object-fit: fill;
+    background-color: rgba(255, 101, 1, .12);
+    border-radius: 8px;
+    padding-left: .25em;
+    padding-right: .25em;
+}
+
+
+/* Corporate package container */
+
+.corporate-package-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.corporate-experience-card-wrapper {
+    display: flex;
+    
+}
+
+.image-card-wrapper {
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.corporate-experience-card {
+    width: 300px;
+    overflow: hidden;
+    margin-right: 10px;
+    /* box-shadow: 1px 1px 15px 0px #07070c; */
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-card-wrapper {
+    padding: 5px;
+    color: inherit;
+}
+
+.picto-div-wrapper {
+    display: flex;
+}
+
+.picto-div-wrapper > span {
+    margin-right: 10px;
+}
+
+.price-card-wrapper > span {
+    margin-right: 10px;
+}
+
+.price-card-wrapper{
+    display: flex;
+}
+
+.get-started {
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #3b4555;
+}
+
+.get-started > a {
+    color: #fdf8f4;
+    text-decoration: none;
+}
+
+
+
+/* Experience description */
+
+.experience-summary-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+}
+
